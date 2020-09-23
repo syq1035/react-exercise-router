@@ -15,7 +15,7 @@ const Detail = props => {
       {Object.keys(detail).map((key, index) => (
         <p key={index}>{`${key} : ${detail[key]}`}</p>
       ))}
-      <p>URL: {props.history.location.pathname}</p>
+      <p>URL: {props.match.url}</p>
     </div>
   );
 };

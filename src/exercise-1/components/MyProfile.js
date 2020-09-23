@@ -6,7 +6,7 @@ const MyProfile = props => {
       <p>Username: XXX</p>
       <p>Gender: Female </p>
       <p> Work: IT Industry </p>
-      <p>Website: '{props.history.location.pathname}'</p>
+      <p>Website: '{props.match.url}'</p>
     </div>
   );
 };

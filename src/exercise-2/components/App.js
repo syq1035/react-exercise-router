@@ -18,10 +18,11 @@ class App extends Component {
           <div className="main">
             <Switch>
               <Route exact path="/products" component={Products} />
+              <Route exact path="/goods" component={Products} />
               <Route exact path="/products/:id" component={Detail} />
               <Route exact path="/myProfile" component={MyProfile} />
               <Route exact path="/about" component={About} />
-              <Route exact path="/" component={Home} />
+              <Route path="/" component={Home} />
             </Switch>
           </div>
         </Router>

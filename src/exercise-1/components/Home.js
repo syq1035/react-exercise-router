@@ -5,7 +5,7 @@ const Home = props => {
   return (
     <div>
       <p>This is a beautiful home page.</p>
-      <p>And the url is '{props.history.location.pathname}'</p>
+      <p>And the url is '{props.match.url}'</p>
     </div>
   );
 };
