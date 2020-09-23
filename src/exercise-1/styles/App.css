@@ -1,0 +1,19 @@
+.header {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-item {
+  width: 100px;
+  color: aliceblue;
+  text-decoration: none;
+}
+.nav-active {
+  text-decoration: underline;
+}
+.main {
+  width: 500px;
+  margin: 100px auto;
+}
