@@ -7,11 +7,6 @@ import User from "./User";
 import NotMatch from "./NotMatch";
 
 class App extends Component {
-  routerWillLeave(nextLocation) {
-    if (!nextLocation.pathname.match("^[0-9]*$")) {
-      this.props.history.push("/a/b");
-    }
-  }
   render() {
     return (
       <div className="app">
